@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: '<---- WEB APP NAME------->'
+          app-name: 'presentatie-app'
           # slot-name: 'stagingslot'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
